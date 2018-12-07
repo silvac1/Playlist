@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 a1 = Album.create(cover: "http://s3.amazonaws.com/codecademy-content/projects/3/bass-music/my-beautiful-dark-twisted-fantasy.jpg", title: "My Beautiful Dark Twisted Fantasy", artist: "Kanye West")
 Track.create(name: "Dark Fantasy", minutes: 5, album_id: a1.id)
 Track.create(name: "Gorgeous", minutes: 6, album_id: a1.id)
@@ -106,3 +107,15 @@ Track.create(name: "That Girl", minutes: 5, album_id: a7.id)
 Track.create(name: "Let the Groove Get In", minutes: 8, album_id: a7.id)
 Track.create(name: "Mirrors", minutes: 9, album_id: a7.id)
 Track.create(name: "Blue Ocean Floor", minutes: 8, album_id: a7.id)
+
+a8 = Album.create(cover: "https://i.imgur.com/x9ACgmT.jpg", title: "The Boston Experience", artist: "Celso Silva")
+Track.create(name: "Pusher Love Girl", minutes: 9, album_id: a8.id)
+Track.create(name: "Suit & Tie", minutes: 6, album_id: a8.id)
+Track.create(name: "Don't Hold the Wall", minutes: 8, album_id: a8.id)
+Track.create(name: "Strawberry Bubblegum", minutes: 8, album_id: a8.id)
+Track.create(name: "Tunnel Vision", minutes: 7, album_id: a8.id)
+Track.create(name: "Spaceship Coupe", minutes: 8, album_id: a8.id)
+Track.create(name: "That Girl", minutes: 5, album_id: a8.id)
+Track.create(name: "Let the Groove Get In", minutes: 8, album_id: a8.id)
+Track.create(name: "Mirrors", minutes: 9, album_id: a8.id)
+Track.create(name: "Blue Ocean Floor", minutes: 8, album_id: a8.id)
